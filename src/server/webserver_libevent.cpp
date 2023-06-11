@@ -187,7 +187,7 @@ void WebServer::on_request(evhttp_request *req, void *args)
     (void)args;
     static std::string auth_token = "Basic " + base64Encode(auth_user + ":" + auth_password);
     const char *req_content_type = evhttp_find_header(req->input_headers, "Content-Type"), *req_ac_method = evhttp_find_header(req->input_headers, "Access-Control-Request-Method");
-    const char *uri = req->uri, *internal_flag = evhttp_find_header(req->input_headers, "SubConverter-Request");
+    const char *uri = req->uri, *internal_flag = evhttp_find_header(req->input_headers, "Surge-Request");
 
     char *client_ip;
     u_short client_port;
