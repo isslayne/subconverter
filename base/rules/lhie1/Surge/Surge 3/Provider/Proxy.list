@@ -1,3 +1,6 @@
+# > TestFlight
+DOMAIN,testflight.apple.com
+
 # > Line
 DOMAIN-SUFFIX,lin.ee
 DOMAIN-SUFFIX,line.me
@@ -7,18 +10,19 @@ DOMAIN-SUFFIX,line-cdn.net
 DOMAIN-SUFFIX,line-scdn.net
 DOMAIN-SUFFIX,nhncorp.jp
 
-# > Sony
-DOMAIN-SUFFIX,playstation.com
-DOMAIN-SUFFIX,playstation.net
-DOMAIN-SUFFIX,playstationnetwork.com
-DOMAIN-SUFFIX,sony.com
-DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+# > Riot Games
+DOMAIN-SUFFIX,riotcdn.net
+DOMAIN-SUFFIX,wr.pvp.net
+DOMAIN-SUFFIX,riotgames.com
 
 # > Spark
 DOMAIN-SUFFIX,api.amplitude.com
 DOMAIN-SUFFIX,app.smartmailcloud.com
 DOMAIN-SUFFIX,gate.hockeyapp.net
 DOMAIN-SUFFIX,smartmailcloud.com
+
+# > Tesla
+DOMAIN-KEYWORD,tesla
 
 # > Zooba
 USER-AGENT,battleroyale*
@@ -136,6 +140,7 @@ DOMAIN-SUFFIX,cnn.com
 DOMAIN-SUFFIX,cocoapods.org
 DOMAIN-SUFFIX,comodoca.com
 DOMAIN-SUFFIX,content.office.net
+DOMAIN-SUFFIX,crisp.chat
 DOMAIN-SUFFIX,culturedcode.com
 DOMAIN-SUFFIX,cygames.jp
 DOMAIN-SUFFIX,d.pr
@@ -208,6 +213,7 @@ DOMAIN-SUFFIX,gfw.press
 DOMAIN-SUFFIX,gfx.ms
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,ghostnoteapp.com
+DOMAIN-SUFFIX,ghcr.io
 DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,gitbook.com
 DOMAIN-SUFFIX,globalsign.com
@@ -243,6 +249,7 @@ DOMAIN-SUFFIX,imageshack.us
 DOMAIN-SUFFIX,img.ly
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,imore.com
+DOMAIN-SUFFIX,imtoken.fans
 DOMAIN-SUFFIX,ingress.com
 DOMAIN-SUFFIX,inoreader.com
 DOMAIN-SUFFIX,insder.co
@@ -301,6 +308,7 @@ DOMAIN-SUFFIX,mega.nz
 DOMAIN-SUFFIX,megaupload.com
 DOMAIN-SUFFIX,microsofttranslator.com
 DOMAIN-SUFFIX,mindnode.com
+DOMAIN-SUFFIX,mixin.one
 DOMAIN-SUFFIX,mlssoccer.com
 DOMAIN-SUFFIX,mobile01.com
 DOMAIN-SUFFIX,modmyi.com
@@ -443,6 +451,7 @@ DOMAIN-SUFFIX,talkboxapp.com
 DOMAIN-SUFFIX,talkonly.net
 DOMAIN-SUFFIX,tapbots.com
 DOMAIN-SUFFIX,tapbots.net
+DOMAIN-SUFFIX,teamviewer.com
 DOMAIN-SUFFIX,techcrunch.com
 DOMAIN-SUFFIX,technorati.com
 DOMAIN-SUFFIX,techsmith.com
@@ -644,6 +653,7 @@ DOMAIN-SUFFIX,gcr.io
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,gosetsuden.jp
 DOMAIN-SUFFIX,gwtproject.org
+DOMAIN-SUFFIX,hackmd.io
 DOMAIN-SUFFIX,heroku.com
 DOMAIN-SUFFIX,html5rocks.com
 DOMAIN-SUFFIX,keyhole.com
@@ -672,6 +682,10 @@ DOMAIN-SUFFIX,webrtc.org
 DOMAIN-SUFFIX,v2ex.com
 
 DOMAIN-KEYWORD,dlercloud
+
+# > exception
+DOMAIN-SUFFIX,wheel-size.cn
+DOMAIN-SUFFIX,chalungu.cn
 
 # > Amazon
 IP-CIDR,13.32.0.0/16,no-resolve
