@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Set up OpenSSL
-    -  uses: actions/openssl@v1
+    - uses: actions/openssl@v1
     - name: Add OpenSSL to PATH
     - run: echo "::add-path::/usr/local/ssl/bin"
     - uses: actions/checkout@v3
