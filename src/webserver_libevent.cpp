@@ -89,7 +89,7 @@ static inline int process_request(Request &request, Response &response, std::str
 void OnReq(evhttp_request *req, void *args)
 {
     const char *req_content_type = evhttp_find_header(req->input_headers, "Content-Type"), *req_ac_method = evhttp_find_header(req->input_headers, "Access-Control-Request-Method");
-    const char *uri = req->uri, *internal_flag = evhttp_find_header(req->input_headers, "SubConverter-Request");
+    const char *uri = req->uri, *internal_flag = evhttp_find_header(req->input_headers, "Surge-Request");
 
     char *client_ip;
     u_short client_port;
